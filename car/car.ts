@@ -1,3 +1,4 @@
+import { Fuel } from './fuel';
 import { Engine } from "./engine";
 
 export class Car {
@@ -6,5 +7,8 @@ export class Car {
 
     public addSpeed(value: number) {
         this.engine.boost(value);
+    }
+
+    public fillTank(fuel: Fuel) {
     }
 }
