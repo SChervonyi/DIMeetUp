@@ -1,0 +1,28 @@
+{
+  "name": "di-meetup",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SChervonyi/DIMeetUp.git"
+  },
+  "author": "Serhii Chervonyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SChervonyi/DIMeetUp/issues"
+  },
+  "homepage": "https://github.com/SChervonyi/DIMeetUp#readme",
+  "main": "index.js",
+  "scripts": {
+    "example": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14"
+  }
+}
