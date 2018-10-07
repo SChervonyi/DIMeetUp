@@ -3,6 +3,7 @@ import 'reflect-metadata';
 const Service = () : ClassDecorator => {
     return target => {
       console.log(Reflect.getMetadata('design:paramtypes', target));
+      console.log(typeof target);
     };
   };
   
