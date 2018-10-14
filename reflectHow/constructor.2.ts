@@ -19,6 +19,6 @@ class Demo {
     param5 : IFoo,
     param6 : Function,
     param7 : (a : number) => void,
-  )  {
+  ) {
   }
 }
