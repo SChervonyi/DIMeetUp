@@ -1,4 +1,5 @@
 {
     "javascript.implicitProjectConfig.experimentalDecorators": true,
-    "editor.showUnused": false
+    "editor.showUnused": false,
+    "gitlens.codeLens.enabled": false
 }

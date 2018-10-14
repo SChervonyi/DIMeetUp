@@ -1,13 +1,13 @@
 import 'reflect-metadata';
 
-function LogParamTypes<T extends { new(...args: any[]): {} }>(constructor: T) {
-    const types = Reflect.getMetadata('design:paramtypes', constructor);
-    const s = types.map(a => a.name).join();
-    console.log(`param types: ${s}`);
-}
-
 class Foo { }
 interface IFoo { }
+
+function LogParamTypes<T extends { new(...args: any[]): {} }>(constructor: T) {
+    const types = Reflect.getMetadata('design:paramtypes', constructor);
+    const s = types.map(a => a.name).join('\r\n');
+    console.log(`param types: ${s}`);
+}
 
 @LogParamTypes
 class Demo {
