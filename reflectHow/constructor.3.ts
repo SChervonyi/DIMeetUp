@@ -19,3 +19,14 @@ class Foobar {
     constructor(public foo: Foo, public bar: Bar) {
     }
 }
+
+declare type ClassDecorator = <TFunction 
+    extends Function>(target: TFunction) => TFunction | void;
+
+function MyClassDecorator<T 
+    extends { new(...args: any[]): {} }>(constructor: T) {
+    return class extends constructor {
+        newProperty = 'new property';
+    }
+}
+
