@@ -1,5 +1,5 @@
-import {Service} from "../src/ServiceDecorator";
-import {Injector} from "../src/Injector";
+import { Service } from '../src/ServiceDecorator';
+import { Injector } from '../src/Injector';
 
 @Service()
 class Foo {

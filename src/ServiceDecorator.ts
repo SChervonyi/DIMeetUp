@@ -1,4 +1,4 @@
-import {GenericClassDecorator, Type} from "./Utils";
+import { GenericClassDecorator, Type } from './Utils';
 
 /**
  * @returns {GenericClassDecorator<Type<any>>}

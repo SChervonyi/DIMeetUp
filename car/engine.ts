@@ -1,14 +1,14 @@
 export class Engine {
 
-    public boost(value: number) {
-        // ...
-    }
+  public boost(value: number) {
+    // ...
+  }
 
-    public start() {
-        // ...
-    }
+  public start() {
+    // ...
+  }
 
-    public idle(){
-        // ...
-    }
+  public idle() {
+    // ...
+  }
 }

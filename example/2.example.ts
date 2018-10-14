@@ -1,11 +1,11 @@
-import {Service} from "../src/ServiceDecorator";
-import {Injector} from "../src/Injector";
+import { Service } from '../src/ServiceDecorator';
+import { Injector } from '../src/Injector';
 
 @Service()
 class DatabaseHandler {
   insert(table: string, data: { [column: string]: string|number }) {
     console.log(`writing to ${table}:`);
-    console.log(data)
+    console.log(data);
   }
 }
 
