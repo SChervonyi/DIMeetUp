@@ -6,6 +6,6 @@ import { GenericClassDecorator, Type } from './Utils';
  */
 export const Service = () : GenericClassDecorator<Type<any>> => {
   return (target: Type<any>) => {
-    // do something with `target`, e.g. some kind of validation or passing it to the Injector and store them
+    // do something with `target`, e.g. some kind of validation
   };
 };
