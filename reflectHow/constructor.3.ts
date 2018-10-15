@@ -20,9 +20,11 @@ class Foobar {
     }
 }
 
+    //* Declaration */
 declare type ClassDecorator = <TFunction 
     extends Function>(target: TFunction) => TFunction | void;
 
+    //* Example */
 function MyClassDecorator<T 
     extends { new(...args: any[]): {} }>(constructor: T) {
     return class extends constructor {
