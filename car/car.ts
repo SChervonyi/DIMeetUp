@@ -6,18 +6,18 @@ export class Car {
     this.engine.boost(value);
   }
 
-  public fillTank(fuel: Fuel) { /* */ }
+  public fillTank(fuel: Fuel) { /* logic */ }
 }
 
 export class Engine {
 
   constructor(private engineCylinder: EngineCylinder) { }
 
-  public boost(value: number) { /* */ }
+  public boost(value: number) { /* logic */ }
 }
 
-export class Fuel { /* */ }
+export class Fuel { /* logic */ }
 
 export class EngineCylinder {
-  public push() { /* */ }
+  public push() { /* logic */ }
 }
